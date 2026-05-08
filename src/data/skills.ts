@@ -5,7 +5,7 @@ export const skills = [
     },
     {
         category: "Libraries",
-        items: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "NetworkX", "Matplotlib,", "NLTK", ""]
+        items: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "NetworkX", "Matplotlib,", "NLTK"]
     },
     {
         category: "Tools",
