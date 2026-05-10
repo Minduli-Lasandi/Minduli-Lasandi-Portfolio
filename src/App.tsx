@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
-// import Hero from './components/Hero'
-// import Experience from './components/Experience'
+import Hero from './components/Hero'
+import Experience from './components/Experience'
 // import Projects from './components/Projects'
 // import Publications from './components/Publications'
 // import Skills from './components/Skills'
@@ -10,9 +10,9 @@ export default function App() {
     <>
       <Navbar />
       <main>
-        {/* <Hero />
+        <Hero />
         <Experience />
-        <Projects />
+        {/* <Projects />
         <Publications />
         <Skills /> */}
       </main>
