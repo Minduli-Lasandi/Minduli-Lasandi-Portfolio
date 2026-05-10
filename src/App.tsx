@@ -1,23 +1,23 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Publications from './components/Publications'
-import Skills from './components/Skills'
+// import Hero from './components/Hero'
+// import Experience from './components/Experience'
+// import Projects from './components/Projects'
+// import Publications from './components/Publications'
+// import Skills from './components/Skills'
 
 export default function App() {
   return (
     <>
       <Navbar />
       <main>
-        <Hero />
+        {/* <Hero />
         <Experience />
         <Projects />
         <Publications />
-        <Skills />
+        <Skills /> */}
       </main>
       <footer className="footer">
-        <p>© 2026 Minduli Lasandi · Built with React + TypeScript</p>
+        <p> Minduli Lasandi Portfolio · Built with React + TypeScript</p>
       </footer>
     </>
   )
