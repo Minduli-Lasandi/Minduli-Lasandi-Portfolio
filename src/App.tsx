@@ -17,7 +17,7 @@ export default function App() {
         <Skills />
       </main>
       <footer className="footer">
-        <p> Minduli Lasandi Portfolio · Built with React + TypeScript</p>
+        <p> Minduli Lasandi Portfolio</p>
       </footer>
     </>
   )
