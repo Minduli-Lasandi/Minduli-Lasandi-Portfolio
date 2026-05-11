@@ -1,4 +1,15 @@
 export const projects = [
+
+    {
+        name: "Battleships-B-Specification",
+        date: "October 2025 - December 2025",
+        description: "A formal B specification of a Battleships board game, verified with Atelier B and ProB.",
+        tags: ["B (Formal method)", "Atelier B", "ProB"],
+        links: {
+            github: "https://github.com/Minduli-Lasandi/Battleships-B-Specification",
+        }
+    },
+
     {
         name: "SignWave",
         date: "October 2023 -March 2024",
@@ -40,19 +51,9 @@ export const projects = [
     },
 
     {
-        name: "Battleships-B-Specification",
-        date: "October 2025 - December 2025",
-        description: "A formal B specification of a Battleships board game, verified with Atelier B and ProB.",
-        tags: ["B (Formal method)", "Atelier B", "ProB"],
-        links: {
-            github: "https://github.com/Minduli-Lasandi/Battleships-B-Specification",
-        }
-    },
-
-    {
         name: "SinhaLegal",
         date: "January 2026",
-        description: "A Sinhala legal dataset with over 2 million tokens, designed for information extraction and analysis.",
+        description: "A Sinhala legal dataset with over 2 million tokens, designed for information extraction and analysis. This dataset consist of 1206 Sinhala legal documents in which are 1065 Acts and 141 Bills. These documents were manually post-processed over a period of approximately 3 months ensuring the word level corrections and other OCR errors are fixed.",
         tags: ["Post-processing", "Silver standard dataset", "Legal documents", "Sinhala"],
         outcomes: "A Silver standard Sinhala Legal Dataset (SinhaLegal)",
         links: {
