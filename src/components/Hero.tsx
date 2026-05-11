@@ -28,7 +28,7 @@ export default function Hero() {
         <section id="about" className="hero">
             <div className="hero-inner">
                 <div className="hero-photo-wrap">
-                    <img src="/profile.jpg" alt={profile.name} className="hero-photo" />
+                    <img src="/Profile_Picture.jpeg" alt={profile.name} className="hero-photo" />
                 </div>
                 <div className="hero-content">
                     <p className="hero-greeting">Hello, I'm</p>
