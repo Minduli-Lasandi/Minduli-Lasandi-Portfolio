@@ -9,8 +9,7 @@ const linkMeta: Record<string, { label: string; icon: string }> = {
 
 
 // sort, take top 6
-const recentProjects = projects.slice(-6)
-
+const recentProjects = projects.slice(-6).reverse()
 export default function Projects() {
     return (
         <section id="projects" className="section section-alt">
