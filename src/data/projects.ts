@@ -67,7 +67,7 @@ export const projects = [
         name: "SinBrief",
         date: "July 2025 - May 2026",
         description: "Developed an NLP-based framework for generating concise summaries of Sinhala legal texts in a low-resource setting, without relying on annotated datasets. The system leverages domain-aware word graphs, sentence clustering, and self-supervised learning across multiple models (mBert, Laser, Llama 3.1, Falcon 7B, and a continually pre-trained Llama 3.1) to identify and rank important content.",
-        tags: ["Python", "Gradio", "NLTK", "Unsupervised learning"],
+        tags: ["Python", "Gradio", "NLTK", "Unsupervised learning", "Pytorch", "scikit-learn", "numpy", "Trained and fine-tuned LLMs"],
         outcomes: "Continually Pre-trained Llama Model, and an Unsupervised Summarisation Framework.",
         links: {
             demo: "https://huggingface.co/spaces/Minduli-Lasandi/SinBrief",
