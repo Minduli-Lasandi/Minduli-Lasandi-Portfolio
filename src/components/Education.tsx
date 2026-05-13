@@ -18,7 +18,7 @@ export default function Education() {
                                     <span className="exp-duration">{edu.duration}</span>
                                 </div>
                                 {edu.grade && (
-                                    <p className="edu-grade">🎓 {edu.grade}</p>
+                                    <p className="edu-grade">Grade: {edu.grade}</p>
                                 )}
                                 {edu.Research_Project && (
                                     <p className="edu-research"><strong>Research Project:</strong> {edu.Research_Project}</p>
