@@ -597,6 +597,31 @@ body {
   border-radius: 100px;
 }
 
+.edu-grade {
+  font-size: 0.875rem;
+  color: var(--accent-2);
+  margin-bottom: 0.5rem;
+}
+
+.edu-research {
+  font-size: 0.875rem;
+  color: var(--text-2);
+  margin-bottom: 0.75rem;
+}
+
+.edu-modules {
+  margin-top: 0.75rem;
+}
+
+.edu-modules-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 0.5rem;
+}
+
 /* ── Footer ── */
 .footer {
   text-align: center;
