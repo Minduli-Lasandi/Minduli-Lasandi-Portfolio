@@ -622,6 +622,25 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.cv-btn {
+  display: inline-flex;
+  align-items: left;
+  gap: 0.4rem;
+  padding: 0.4rem 1rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+
+.cv-btn:hover {
+  opacity: 0.85;
+}
+
 /* ── Footer ── */
 .footer {
   text-align: center;

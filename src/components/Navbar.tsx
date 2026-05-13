@@ -28,6 +28,13 @@ export default function Navbar() {
                         <button key={l} onClick={() => scrollTo(l)}>{l}</button>
                     ))}
                 </div>
+                <div></div>
+                <a href="./Minduli_Lasandi_Resume.pdf" download className="cv-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+                        <path d="M12 16l-5-5 1.41-1.41L11 13.17V4h2v9.17l2.59-2.58L17 11l-5 5zm-7 3h14v-2H5v2z" />
+                    </svg>
+                    Download CV
+                </a>
                 <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">
                     <span /><span /><span />
                 </button>
