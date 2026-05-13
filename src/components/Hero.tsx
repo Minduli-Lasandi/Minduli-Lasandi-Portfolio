@@ -50,6 +50,12 @@ export default function Hero() {
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" /></svg>
                             <span className="link-label">Email</span>
                         </a>
+                        <a href="./Minduli_Lasandi_Resume.pdf" download className="hero-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                <path d="M12 16l-5-5 1.41-1.41L11 13.17V4h2v9.17l2.59-2.58L17 11l-5 5zm-7 3h14v-2H5v2z" />
+                            </svg>
+                            <span className="link-label">Download CV</span>
+                        </a>
                     </div>
                 </div>
             </div>
