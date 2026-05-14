@@ -419,6 +419,116 @@ body {
   color: var(--text-3);
 }
 
+/* ── Subpage ── */
+.subpage {
+  min-height: 100vh;
+}
+
+.subpage-header {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+/* ── Certifications ── */
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cert-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: box-shadow 0.2s;
+}
+
+.cert-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.cert-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cert-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--accent-light);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cert-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.cert-issuer {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-top: 2px;
+}
+
+.cert-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.cert-date {
+  font-size: 0.8rem;
+  color: var(--text-3);
+}
+
+.cert-ongoing {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-2);
+  background: #fef3c7;
+  padding: 0.2rem 0.6rem;
+  border-radius: 100px;
+}
+
+
 .view-all-btn {
   display: inline-flex;
   align-items: center;
@@ -435,6 +545,23 @@ body {
 
 .view-all-btn:hover {
   opacity: 0.8;
+}
+
+.projects-footer-btns {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.view-all-btn--outline {
+  background: transparent !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.view-all-btn--outline:hover {
+  background: var(--tag-bg) !important;
+  opacity: 1 !important;
 }
 
 
