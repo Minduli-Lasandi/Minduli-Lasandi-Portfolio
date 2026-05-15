@@ -48,7 +48,13 @@ export default function SkillsPage() {
                                     </div>
                                     <div>
                                         <h3 className="cert-name">{cert.name}</h3>
+                                        {cert.description && <p className="cert-desc">{cert.description}</p>}
                                         <p className="cert-issuer">{cert.issuer}</p>
+                                        {cert.topics && (
+                                            <div className="tag-list" style={{ marginTop: '0.5rem' }}>
+                                                {cert.topics.map(t => <span key={t} className="tag">{t}</span>)}
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                                 <div className="cert-right">

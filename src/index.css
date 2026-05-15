@@ -465,16 +465,33 @@ body {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto;
+  gap: 0.75rem 1rem;
   transition: box-shadow 0.2s;
 }
 
 .cert-card:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.cert-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.cert-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  grid-column: 2;
+  grid-row: 1;
+  flex-shrink: 0;
+  align-self: start;
 }
 
 .cert-left {
@@ -507,12 +524,12 @@ body {
   margin-top: 2px;
 }
 
-.cert-right {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-shrink: 0;
+.cert-desc {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  margin-top: 2px;
 }
+
 
 .cert-date {
   font-size: 0.8rem;
