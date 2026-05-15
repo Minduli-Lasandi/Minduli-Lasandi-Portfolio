@@ -38,7 +38,7 @@ export default function SkillsPage() {
                 <div className="section-inner">
                     <h2 className="section-title">Certifications</h2>
                     <div className="cert-list">
-                        {certifications.map((cert, i) => (
+                        {[...certifications].reverse().map((cert, i) => (
                             <div key={i} className="cert-card">
                                 <div className="cert-left">
                                     <div className="cert-icon">
