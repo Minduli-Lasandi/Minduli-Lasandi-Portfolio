@@ -453,6 +453,47 @@ body {
   border-color: var(--text);
 }
 
+.activity-event {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  margin-bottom: 0.4rem;
+}
+
+.activity-contribution {
+  font-size: 0.875rem;
+  color: var(--text-2);
+}
+
+.activity-contribution strong {
+  color: var(--accent-2);
+}
+
+.section-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subtle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.subtle-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 /* ── Certifications ── */
 .cert-list {
   display: flex;
