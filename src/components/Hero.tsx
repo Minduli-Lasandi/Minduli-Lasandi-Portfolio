@@ -28,7 +28,7 @@ export default function Hero() {
         <section id="about" className="hero">
             <div className="hero-inner">
                 <div className="hero-photo-wrap">
-                    <img src="./Profile_Picture2.jpeg" alt={profile.name} className="hero-photo" />
+                    <img src="./Profile_Picture.jpeg" alt={profile.name} className="hero-photo" />
                 </div>
                 <div className="hero-content">
                     <p className="hero-greeting">Hello, I'm</p>
@@ -46,10 +46,6 @@ export default function Hero() {
                                 </a>
                             )
                         })}
-                        <a href={`mailto:${profile.email}`} className="hero-link" title="Email">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" /></svg>
-                            <span className="link-label">Email</span>
-                        </a>
                     </div>
                 </div>
             </div>
