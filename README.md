@@ -10,8 +10,8 @@ A clean, minimal personal portfolio website built with React and TypeScript, dep
 
 - **Hero** — Profile photo, bio, and links to GitHub, LinkedIn, Google Scholar, Hugging Face, Medium, and email
 - **Education** — Academic background with key modules and research project
-- **Experience** — Work and internship history with tech stack tags
-- **Projects** — 6 most recent projects with links to GitHub, HuggingFace, demos, and publications
+- **Experience** — Work and experience history 
+- **Projects** — Most recent projects with links to GitHub, HuggingFace, demos, and publications
 - **Publications** — Auto-parsed from BibTeX entries with abstract toggle and DOI/paper links
 - **Skills & Certifications** — Separate page with skill groups and course certifications
 - **Extracurricular Activities** — Separate page linked from the Experience section
@@ -36,7 +36,7 @@ A clean, minimal personal portfolio website built with React and TypeScript, dep
 src/
 ├── components/        # Navbar, Hero, Education, Experience, Projects, Publications
 ├── pages/             # SkillsPage, ActivitiesPage
-├── data/              # All content lives here as .ts files
+├── data/              # All content is available here as .ts files
 │   ├── profile.ts
 │   ├── education.ts
 │   ├── experience.ts
@@ -50,7 +50,7 @@ src/
 ├── App.tsx
 ├── main.tsx
 └── index.css
-public/
+public/        # COntains the resume and profile picture
 ├── profile.jpg
 └── Minduli_Lasandi_Resume.pdf
 ```
@@ -70,7 +70,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Updating Content
 
-All content is managed through the data files in `src/data/`. No need to touch any component files for content updates.
+All content is managed through the data files in `src/data/`. No need to change any component files for content updates.
 
 - **Add a project** → `src/data/projects.ts`
 - **Add a publication** → paste BibTeX into `src/data/publications.ts`
@@ -90,7 +90,3 @@ git push
 ```
 
 ---
-
-## License
-
-Feel free to use this as a template for your own portfolio. If you do, a credit would be appreciated!
