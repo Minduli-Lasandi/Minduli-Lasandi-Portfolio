@@ -1,8 +1,8 @@
 # Minduli Lasandi — Personal Portfolio
 
-A clean, minimal personal portfolio website built with React and TypeScript, deployed on GitHub Pages.
+A personal portfolio website built with React and TypeScript, featuring sections on education, professional experience, research projects, publications, technical skills, and certifications.
 
-🌐 **Live site:** [minduli-lasandi.github.io/Minduli-Lasandi-Portfolio](https://minduli-lasandi.github.io/Minduli-Lasandi-Portfolio/)
+ **Live site:** [minduli-lasandi.github.io/Minduli-Lasandi-Portfolio](https://minduli-lasandi.github.io/Minduli-Lasandi-Portfolio/)
 
 ---
 

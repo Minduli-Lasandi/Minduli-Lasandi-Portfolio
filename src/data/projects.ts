@@ -1,12 +1,33 @@
 export const projects = [
 
     {
+        name: "Eleganz of Ceylon",
+        date: "April 2023 -July 2023",
+        description: "A website made for the tourism industry of Sri Lanka, including destinations, sitemaps, quizzes and shops",
+        tags: ["HTML", "CSS", "JavaScript"],
+        links: {
+            github: "https://github.com/Minduli-Lasandi/Eleganz-of-Ceylon",
+        }
+    },
+
+
+    {
         name: "Battleships-B-Specification",
         date: "October 2025 - December 2025",
         description: "A formal B specification of a Battleships board game, verified with Atelier B and ProB.",
         tags: ["B (Formal method)", "Atelier B", "ProB"],
         links: {
             github: "https://github.com/Minduli-Lasandi/Battleships-B-Specification",
+        }
+    },
+
+    {
+        name: "Personal Portfolio",
+        date: "May 2026",
+        description: "A personal portfolio website built with React and TypeScript, featuring sections on education, professional experience, research projects, publications, technical skills, and certifications.",
+        tags: ["TypeScript", "React"],
+        links: {
+            github: "https://github.com/Minduli-Lasandi/Minduli-Lasandi-Portfolio",
         }
     },
 
