@@ -22,6 +22,16 @@ export const projects = [
     },
 
     {
+        name: "Concurrent systems",
+        date: "October 2025 - December 2025",
+        description: "Two concurrent Java systems built to explore real-world multi-threading and thread-safe design patterns.",
+        tags: ["Java", "Concurrency"],
+        links: {
+            github: "https://github.com/Minduli-Lasandi/Concurrent-Systems",
+        }
+    },
+
+    {
         name: "Personal Portfolio",
         date: "May 2026",
         description: "A personal portfolio website built with React and TypeScript, featuring sections on education, professional experience, research projects, publications, technical skills, and certifications.",
@@ -42,6 +52,17 @@ export const projects = [
     },
 
     {
+        name: "Sliding-Puzzle-Pathfinding",
+        date: "March 2024 - April 2024",
+        description: "A Java implementation of a sliding ice puzzle solver using BFS, Dijkstra's, and A pathfinding algorithms.",
+        tags: ["Java", "Algorithms", "Data structures", "A* algorithm", "Breadth First Search", "Dijkstra's algorithm"],
+        links: {
+            github: "https://github.com/Minduli-Lasandi/Sliding-Puzzle-Pathfinding",
+        }
+    },
+
+
+    {
         name: "ML-Clustering-and-Time-Series-Forecasting",
         date: "February 2024 - May2024",
         description: "Machine learning project in R covering unsupervised clustering and time series forecasting using MLP neural networks.",
@@ -52,25 +73,15 @@ export const projects = [
     },
 
     {
-        name: "Sliding-Puzzle-Pathfinding",
-        date: "March 2024 - April 2024",
-        description: "A Java implementation of a sliding ice puzzle solver using BFS, Dijkstra's, and A pathfinding algorithms.",
-        tags: ["Java", "Algorithms", "Data structures", "A* algorithm", "Breadth First Search", "Dijkstra's algorithm"],
+        name: "Fake News Detector",
+        date: "May 2026",
+        description: "A full-stack machine learning web app that classifies news headlines as likely fake or real based on language patterns. This analyzes headlines to predict credibility, display a confidence score, and highlight key triggering words.",
+        tags: ["Python", "Gradio", "Logistic Regression ", "TF-IDF Vectorizer", "Scikit-learn", "Joblib", "FastAPI", "Uvicorn", "Gradio"],
         links: {
-            github: "https://github.com/Minduli-Lasandi/Sliding-Puzzle-Pathfinding",
+            github: "https://github.com/Minduli-Lasandi/Fake-News-Detector",
+            demo: "https://huggingface.co/spaces/Minduli-Lasandi/Fake-News-Detector",
         }
     },
-
-    {
-        name: "Concurrent systems",
-        date: "October 2025 - December 2025",
-        description: "Two concurrent Java systems built to explore real-world multi-threading and thread-safe design patterns.",
-        tags: ["Java", "Concurrency"],
-        links: {
-            github: "https://github.com/Minduli-Lasandi/Concurrent-Systems",
-        }
-    },
-
     {
         name: "SinhaLegal",
         date: "January 2026",
@@ -89,10 +100,12 @@ export const projects = [
         date: "July 2025 - May 2026",
         description: "Developed an NLP-based framework for generating concise summaries of Sinhala legal texts in a low-resource setting, without relying on annotated datasets. The system leverages domain-aware word graphs, sentence clustering, and self-supervised learning across multiple models (mBert, Laser, Llama 3.1, Falcon 7B, and a continually pre-trained Llama 3.1) to identify and rank important content.",
         tags: ["Python", "Gradio", "NLTK", "Unsupervised learning", "Pytorch", "scikit-learn", "numpy", "Trained and fine-tuned LLMs"],
-        outcomes: "Continually Pre-trained Llama Model, and an Unsupervised Summarisation Framework.",
+        outcomes: "Continually Pre-trained Llama Model, an Unsupervised Summarisation Framework.",
         links: {
             demo: "https://huggingface.co/spaces/Minduli-Lasandi/SinBrief",
         }
     },
+
+
 
 ]
