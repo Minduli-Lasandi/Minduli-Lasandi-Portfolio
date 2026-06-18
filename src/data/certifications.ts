@@ -53,7 +53,7 @@ export const certifications = [
         name: "Natural Language Processing for Speech and Text From Beginner to Advanced",
         description: "Introduces natural language processing concepts, techniques, and Python tools for working with text and speech data.",
         issuer: "LinkedIn (wuraola oyewusi)",
-        date: "Ongoing",
+        date: "June 2026",
         link: "",
         topics: ["NLP", "AI", "Python", "Text Processing", "NLP Techniques", "NLP Preprocessing", "NLTK", "Spacy", "Transformers"]
 
