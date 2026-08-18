@@ -54,7 +54,7 @@ export const certifications = [
         description: "Introduces natural language processing concepts, techniques, and Python tools for working with text and speech data.",
         issuer: "LinkedIn (wuraola oyewusi)",
         date: "June 2026",
-        link: "",
+        link: "https://www.linkedin.com/learning/certificates/39835fc817cba4cf85eda71627b5a16461cb3df839c3e0e1b5b0fd5e964fb4c2?accountId=76664938&u=76664938&success=true&authUUID=yVDsWPQnTSeYLj6ArxvD0g%3D%3D",
         topics: ["NLP", "AI", "Python", "Text Processing", "NLP Techniques", "NLP Preprocessing", "NLTK", "Spacy", "Transformers"]
 
     },
@@ -63,10 +63,19 @@ export const certifications = [
         name: "Foundational Math for Machine Learning",
         description: "Introduces natural language processing concepts, techniques, and Python tools for working with text and speech data.",
         issuer: "LinkedIn (Terezija Semenski)",
-        date: "Ongoing",
+        date: "August 2026",
         link: "",
         topics: ["Machine Learning Mathematics", "Linear Algebra", "Calculus", "Statistics", "Statistical Analysis", "Data Analysis"]
 
     },
 
+    {
+        name: "Advanced NLP with Python for Machine Learning",
+        description: "An advanced NLP course covering fundamental NLP concepts, spaCy, Transformer models such as BERT and GPT, and modern techniques including fine-tuning, PEFT, and RAG. It also explores practical applications of NLP using Python and machine learning",
+        issuer: "LinkedIn (Gwendolyn Denise Stripling, Ph.D.)",
+        date: "In Progress",
+        link: "",
+        topics: ["Natural Language Processing","Machine Learning", "Artific", "Calculus", "Statistics", "Statistical Analysis", "Data Analysis"]
+
+    },
 ]
