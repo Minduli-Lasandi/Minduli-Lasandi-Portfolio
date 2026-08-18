@@ -19,6 +19,6 @@ export const education = [
         degree: "O/L Examinations",
         institution: "Brilliant Starts Int. College",
         duration: "2015 January- 2019 December",
-        grade: "Distinctions for ICT and English and Merit for Other Subjects", 
+        grade: "Distinctions for ICT & English, Merit for Other Subjects", 
     },
 ]
