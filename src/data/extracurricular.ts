@@ -3,7 +3,7 @@ export const extracurricular = [
         role: "Member",
         organization: "Leo Club of IIT",
         duration: "May 2023 - April 2025",
-        contribution: "Social services"
+        contribution: "Social Services"
     },
 
     {
@@ -23,11 +23,11 @@ export const extracurricular = [
     },
 
     {
-        role: " Member: Secretarial team",
+        role: " Member: Secretarial Team",
         organization: "IET On Campus IIT",
         duration: "Feb 2025 - Present",
         event: "IET Summer School, IET Cipher, IET Cipher 2.0 ",
-        contribution: "Content writing, Copy-editing"
+        contribution: "Content Writing, Copy-Editing"
     },
 
     {

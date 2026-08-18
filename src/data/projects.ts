@@ -76,7 +76,7 @@ export const projects = [
         name: "Fake News Detector",
         date: "May 2026",
         description: "A full-stack machine learning web app that classifies news headlines as likely fake or real based on language patterns. This analyzes headlines to predict credibility, display a confidence score, and highlight key triggering words.",
-        tags: ["Python", "Gradio", "Logistic Regression ", "TF-IDF Vectorizer", "Scikit-learn", "Joblib", "FastAPI", "Uvicorn", "Gradio"],
+        tags: ["Python", "Gradio", "Logistic Regression ", "TF-IDF Vectorizer", "scikit-learn", "Joblib", "FastAPI", "Uvicorn", "Gradio"],
         links: {
             github: "https://github.com/Minduli-Lasandi/Fake-News-Detector",
             demo: "https://huggingface.co/spaces/Minduli-Lasandi/Fake-News-Detector",
@@ -99,7 +99,7 @@ export const projects = [
         name: "SinBrief",
         date: "July 2025 - May 2026",
         description: "Developed an NLP-based framework for generating concise summaries of Sinhala legal texts in a low-resource setting, without relying on annotated datasets. The system leverages domain-aware word graphs, sentence clustering, and self-supervised learning across multiple models (mBert, Laser, Llama 3.1, Falcon 7B, and a continually pre-trained Llama 3.1) to identify and rank important content.",
-        tags: ["Python", "Gradio", "NLTK", "Unsupervised learning", "Pytorch", "scikit-learn", "numpy", "Trained and fine-tuned LLMs"],
+        tags: ["Python", "Gradio", "NLTK", "Unsupervised Learning", "PyTorch", "scikit-learn", "NumPy", "Trained and Fine-Tuned LLMs"],        
         outcomes: "Continually Pre-trained Llama Model, an Unsupervised Summarisation Framework.",
         links: {
             demo: "https://huggingface.co/spaces/Minduli-Lasandi/SinBrief",
