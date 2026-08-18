@@ -21,7 +21,7 @@ export const certifications = [
         issuer: "LinkedIn (Angie Jones)",
         date: "Sep 2023",
         link: "https://www.linkedin.com/learning/certificates/809033c7efb865bc2223b8815d0485f08fa8f9b6c0824ea437c823f428bc4443?u=76664938",
-        topics: ["OOP", "Interfaces", "Data structures", "Exception handling", "Functional programming", "Memory management"]
+        topics: ["OOP", "Interfaces", "Data Structures", "Exception Handling", "Functional Programming", "Memory Management"]
     },
 
     {
@@ -30,7 +30,7 @@ export const certifications = [
         issuer: "LinkedIn (Fredrik Nwanganga)",
         date: "Sep 2023",
         link: "https://www.linkedin.com/learning/certificates/fc26d416998d981a792704a48ec83aacce528cc46bcfcc3c0b779c882efba3b2?u=76664938",
-        topics: ["Python", "Machine learning", "Artificial Intelligence", "Data Preparation", "Machine Learning Models"]
+        topics: ["Python", "Machine Learning", "Artificial Intelligence", "Data Preparation", "Machine Learning Models"]
     },
 
     {
@@ -39,7 +39,7 @@ export const certifications = [
         issuer: "LinkedIn ( Morten Rand Hendriksen)",
         date: "Feb 2024",
         link: "https://www.linkedin.com/learning/certificates/e9ec7a65df9e70341ef5dcec4cbdffd483c9949f3b56bc3bc2dfddcdb0f7bcb1?u=76664938",
-        topics: ["JavaScript", "Data Types", "Client-Side scripting", "DOM Scripting"]
+        topics: ["JavaScript", "Data Types", "Client-Side Scripting", "DOM Scripting"]
     },
 
     {

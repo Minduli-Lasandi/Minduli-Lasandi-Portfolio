@@ -5,11 +5,11 @@ export const skills = [
     },
     {
         category: "Libraries",
-        items: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "NetworkX", "Matplotlib,", "joblib", "NLTK", "HuggingFace Transformers"]
+        items: ["PyTorch", "scikit-learn", "Pandas", "NumPy", "NetworkX", "Matplotlib,", "Joblib", "NLTK", "HuggingFace Transformers"]
     },
      {
-        category: "Research Intrests",
-        items: ["Natural Language Processing", "Machine learning", "Artificial Intelligence", "Neural networks"]
+        category: "Research Skills",
+        items: ["Natural Language Processing", "Machine learning", "Artificial Intelligence", "Neural Networks"]
     },
     {
         category: "Tools",

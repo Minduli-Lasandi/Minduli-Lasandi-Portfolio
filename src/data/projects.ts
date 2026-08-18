@@ -55,7 +55,7 @@ export const projects = [
         name: "Sliding-Puzzle-Pathfinding",
         date: "March 2024 - April 2024",
         description: "A Java implementation of a sliding ice puzzle solver using BFS, Dijkstra's, and A pathfinding algorithms.",
-        tags: ["Java", "Algorithms", "Data structures", "A* algorithm", "Breadth First Search", "Dijkstra's algorithm"],
+        tags: ["Java", "Algorithms", "Data Structures", "A* Algorithm", "Breadth First Search", "Dijkstra's Algorithm"],
         links: {
             github: "https://github.com/Minduli-Lasandi/Sliding-Puzzle-Pathfinding",
         }
@@ -66,7 +66,7 @@ export const projects = [
         name: "ML-Clustering-and-Time-Series-Forecasting",
         date: "February 2024 - May2024",
         description: "Machine learning project in R covering unsupervised clustering and time series forecasting using MLP neural networks.",
-        tags: ["R Studio", "Clustering", "Time-series forecasting"],
+        tags: ["R Studio", "Clustering", "Time-Series Forecasting"],
         links: {
             github: "https://github.com/Minduli-Lasandi/ML-Clustering-and-Time-Series-Forecasting",
         }
@@ -85,9 +85,9 @@ export const projects = [
     {
         name: "SinhaLegal",
         date: "January 2026",
-        description: "A Sinhala legal dataset with over 2 million tokens, designed for information extraction and analysis. This dataset consist of 1206 Sinhala legal documents in which are 1065 Acts and 141 Bills. These documents were manually post-processed over a period of approximately 3 months ensuring the word level corrections and other OCR errors are fixed.",
-        tags: ["Post-processing", "Silver standard dataset", "Legal documents", "Sinhala"],
-        outcomes: "A Silver standard Sinhala Legal Dataset (SinhaLegal)",
+        description: "A Sinhala legal dataset with over 2 million tokens, designed for information extraction and analysis. This dataset consist of 1206 Sinhala legal documents in which are 1065 Acts and 141 Bills. These documents were manually post-processed over a period of approximately 3 months ensuring the word level corrections and other OCR errors were fixed.",
+        tags: ["Post-Processing", "Silver Standard Dataset", "Legal Documents", "Sinhala"],
+        outcomes: "A silver standard Sinhala legal dataset (SinhaLegal)",
         links: {
             github: "https://github.com/Minduli-Lasandi/SinhaLegal",
             huggingface: "https://huggingface.co/datasets/Minduli-Lasandi/SinhaLegal",
@@ -100,7 +100,7 @@ export const projects = [
         date: "July 2025 - May 2026",
         description: "Developed an NLP-based framework for generating concise summaries of Sinhala legal texts in a low-resource setting, without relying on annotated datasets. The system leverages domain-aware word graphs, sentence clustering, and self-supervised learning across multiple models (mBert, Laser, Llama 3.1, Falcon 7B, and a continually pre-trained Llama 3.1) to identify and rank important content.",
         tags: ["Python", "Gradio", "NLTK", "Unsupervised Learning", "PyTorch", "scikit-learn", "NumPy", "Trained and Fine-Tuned LLMs"],        
-        outcomes: "Continually Pre-trained Llama Model, an Unsupervised Summarisation Framework.",
+        outcomes: "Continually pre-trained Llama model, an unsupervised summarisation framework.",
         links: {
             demo: "https://huggingface.co/spaces/Minduli-Lasandi/SinBrief",
         }
