@@ -34,8 +34,8 @@ export const extracurricular = [
         role: " Volunteer: Secretarial Team ",
         organization: "IEEE Robotics and Automation Society of IIT",
         duration: "Feb 2026 - Present ",
-        event: "RobotNexus 3.0, MicroMaze 3.0",
-        contribution: "Content writing"
+        event: "RobotNexus 3.0, MicroMaze 3.0, IEEE Sections Awards",
+        contribution: "Content Writing, Copy-Editing, Writing Scripts, MOUs & Reports"
     },
 
 ]
