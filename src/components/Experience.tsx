@@ -9,7 +9,7 @@ export default function Experience() {
             <div className="section-inner">
                 <h2 className="section-title">Experience</h2>
                 <div className="timeline">
-                    {experience.map((exp, i) => (
+                    {[...experience].reverse().map((exp, i) => (
                         <div key={i} className="timeline-item">
                             <div className="timeline-dot" />
                             <div className="timeline-card">
