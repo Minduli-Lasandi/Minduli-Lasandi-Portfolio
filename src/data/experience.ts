@@ -1,6 +1,6 @@
 export const experience = [
     {
-        role: "Trainee Software Engineer",
+        role: "Trainee Software Engineer | EXFW Division",
         company: " IFS R&D International (Pvt.) Ltd",
         duration: "July 2024 – June 2025",
         description: "Contributed to defect fixing and small-scale feature enhancements for enterprise applications using TypeScript and Angular. Worked with PL/SQL and internal IFS technologies, participated in unit and Cypress testing, and supported backward compatibility and service update testing within agile development workflows.",
@@ -14,4 +14,11 @@ export const experience = [
         tags: ["NLP", "Machine Learning", "Software Engineering","Guides & Tutorials", "Implementation Experiences"]
     },
 
+    {
+        role: "Junior Full-Stack Developer | AI/ML Team",
+        company: "Nexus AML",
+        duration: "September 2026 - Present",
+        description: "",
+        tags: ["NextJS","Python","AWS"]
+    },
 ]

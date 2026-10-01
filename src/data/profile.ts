@@ -1,6 +1,6 @@
 export const profile = {
     name: "Minduli Lasandi",
-    title: "Recent SE Grauduate @ IIT | Software Engineer | Research Enthusiast",
+    title: "Junior Full-Stack Dev @Nexus AML | ML/NLP Research Enthusiast | Writer",
     bio: "I recently completed my Software Engineering degree at the Informatics Institute of Technology (IIT- Sri Lanka), affiliated with the University of Westminster (UK), with First Class Honours and am currently awaiting graduation later this year. I have a deep enthusiasm for learning new things and staying in touch with the latest technologies.  I have recently begun exploring the field of Natural Language Processing (NLP) and am developing a strong interest in it. Beyond academic and professional pursuits, I believe in the importance of inspiration and enjoy writing to bring a sense of motivation to others.",
     email: "mindulilasandi@gmail.com",
     links: {
@@ -8,5 +8,6 @@ export const profile = {
         linkedin: "https://www.linkedin.com/in/minduli-lasandi-157347270",
         huggingface: "https://huggingface.co/Minduli-Lasandi",
         medium: "https://medium.com/@mindulilasandi",
+        scholar:"https://scholar.google.com/citations?user=iU-GvL8AAAAJ&hl=en"
     }
 }
