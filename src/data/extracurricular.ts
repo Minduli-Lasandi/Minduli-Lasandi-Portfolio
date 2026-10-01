@@ -25,7 +25,7 @@ export const extracurricular = [
     {
         role: " Member: Secretarial Team",
         organization: "IET On Campus IIT",
-        duration: "Feb 2025 - Present",
+        duration: "Feb 2025 - Septemner 2026",
         event: "IET Summer School, IET Cipher, IET Cipher 2.0 ",
         contribution: "Content Writing, Copy-Editing"
     },

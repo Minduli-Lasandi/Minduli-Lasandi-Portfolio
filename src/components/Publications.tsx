@@ -9,7 +9,7 @@ const typeLabel: Record<string, string> = {
 }
 
 export default function Publications() {
-    const pubs = parseBibtex(bibtexEntries)
+    const pubs = parseBibtex(bibtexEntries).reverse()
 
     return (
         <section id="publications" className="section">

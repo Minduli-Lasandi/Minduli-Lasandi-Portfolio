@@ -1,11 +1,4 @@
 export const certifications = [
-    // {
-    //     name: "Java object- oriented programming",
-    //     outcomes: "LinkedIn course by . This course consisted of the OOP concepts with Java ",
-    //     issuer: "LinkedIn (Kathryn Hodge)",
-    //     date: "August 2023",
-    //     link: ""
-    // },
     {
         name: "Java Algorithms",
         description: "Design & implement efficient algorithms in Java using data structures, built-in methods, and custom solutions for different data types",
@@ -13,6 +6,15 @@ export const certifications = [
         date: "Aug 2023",
         link: "https://www.linkedin.com/learning/certificates/a3f08627f20a9bc699fad9169d2bf80b1c009520803cab26d22bab21ca491129?u=76664938",
         topics: ["Algorithms", "Java"]
+    },
+    
+     {
+        name: "Java object- oriented programming",
+        outcomes: "Covers the fundamentals of object-oriented programming in Java, including classes, objects, instances, and constructors. It focuses on applying OOP principles in practical Java programs to write more secure, scalable, and maintainable code. ",
+        issuer: "LinkedIn (Kathryn Hodge)",
+        date: "August 2023",
+        link: "https://www.linkedin.com/learning/certificates/0987788abb7e7bfa30d5cd4b054356c2e0e5297351e1e73dea8a14abee510943?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BgO0Q5VMMTNqpRgV%2Flml%2FwA%3D%3D",
+        topics: ["Java", "Object-Oriented Programming", "Software Development"]
     },
 
     {
@@ -60,22 +62,30 @@ export const certifications = [
     },
 
     {
-        name: "Foundational Math for Machine Learning",
-        description: "Introduces natural language processing concepts, techniques, and Python tools for working with text and speech data.",
+        name: "Machine Learning Foundations: Linear Algebra",
+        description: "Covers the fundamentals of linear algebra for machine learning, including vectors, matrices, norms, and transformations. It also shows how these concepts are applied in machine learning algorithms and neural networks",
         issuer: "LinkedIn (Terezija Semenski)",
-        date: "August 2026",
-        link: "",
-        topics: ["Machine Learning Mathematics", "Linear Algebra", "Calculus", "Statistics", "Statistical Analysis", "Data Analysis"]
-
+        date: "July 2026",
+        link: "https://www.linkedin.com/learning/certificates/5b6223296cccf35dcf9d8a5d7753ee5fc8473be940c66641faf89b0ceebcc6ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2Fp8uMOzhRkaFcNv7eoWRZg%3D%3D",
+        topics: ["Machine Learning Mathematics", "Linear Algebra"]
     },
 
     {
-        name: "Advanced NLP with Python for Machine Learning",
-        description: "An advanced NLP course covering fundamental NLP concepts, spaCy, Transformer models such as BERT and GPT, and modern techniques including fine-tuning, PEFT, and RAG. It also explores practical applications of NLP using Python and machine learning",
-        issuer: "LinkedIn (Gwendolyn Denise Stripling, Ph.D.)",
-        date: "In Progress",
-        link: "",
-        topics: ["Natural Language Processing","Machine Learning", "Artific", "Calculus", "Statistics", "Statistical Analysis", "Data Analysis"]
+        name: "Machine Learning Foundations: Calculus",
+        description: "Covers the fundamentals of calculus for machine learning, including functions, derivatives, integrals, and multivariate calculus. It explains how these concepts are used to design and implement ML algorithms.",
+        issuer: "LinkedIn (Terezija Semenski)",
+        date: "August 2026",
+        link: "https://www.linkedin.com/learning/certificates/363472d7b47a38e35a6db0fe6fcb9d00204d235d94fabb90dc21f95847c688df",
+        topics: ["Machine Learning Mathematics",  "Calculus"]
 
     },
+     {
+        name: "Learning Amazon Web Services (AWS) for Developers",
+        description: "Provides a developer-focused overview of AWS and cloud development, covering key AWS services such as Lambda, DynamoDB, S3, SQS, SNS, and Elastic Beanstalk. It also explains the AWS cloud landscape and what developers need to know when developing or migrating applications to the cloud.",
+        issuer: "LinkedIn (Bear Cahil)",
+        date: "August 2026",
+        link: "https://www.linkedin.com/learning/certificates/38063726f406eff676a7ddb17f3073f6fde0b823cc679cdfe7ba3ba830f21b2d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BgO0Q5VMMTNqpRgV%2Flml%2FwA%3D%3D",
+        topics: ["AWS", "Cloud Computing", "Cloud Development"]
+    },
+
 ]

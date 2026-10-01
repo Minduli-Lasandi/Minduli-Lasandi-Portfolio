@@ -1,7 +1,7 @@
 export const skills = [
     {
         category: "Languages and Frameworks",
-        items: ["Python", "Flask", "Angular", "TypeScript", "Java", "R", "Flutter", "Dart", "JavaScript", "Cypress", "FastAPI"]
+        items: ["Python", "Flask", "Angular", "TypeScript", "Java", "R", "Flutter", "Dart", "JavaScript", "Cypress", "FastAPI","NextJS"]
     },
     {
         category: "Libraries",
@@ -13,6 +13,6 @@ export const skills = [
     },
     {
         category: "Tools",
-        items: ["Git", "Docker", "Gradio", "Uvicorn"]
+        items: ["Git", "Docker", "Gradio", "Uvicorn","AWS"]
     },
 ]
